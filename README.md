@@ -72,6 +72,12 @@ pip install -e .
    - Скопируйте URL и ключ API из настроек проекта
    - Обновите значения `SUPABASE_URL` и `SUPABASE_KEY` в файле `src/sleep_tracker/database/supabase_db.py`
 
+**Пример:**
+```python
+# src/sleep_tracker/database/supabase_db.py
+SUPABASE_URL = "https://your-project.supabase.co"
+SUPABASE_KEY = "your_supabase_api_key"
+```
 
 ## 💻 Использование
 
